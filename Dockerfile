@@ -2,7 +2,6 @@ FROM debian:wheezy
 MAINTAINER gil <gil_perry@hotmail.com>
 
 ENV JRE_DOWNLOAD_FILE jre-8u77-linux-x64.tar.gz
-http://download.oracle.com/otn-pub/java/jdk/8u77-b03/jdk-8u77
 ENV JRE_DOWNLOAD_URL http://download.oracle.com/otn-pub/java/jdk/8u77-b03/$JRE_DOWNLOAD_FILE
 ENV JRE_EXPANDED_FILE jre1.8.0_77
 
